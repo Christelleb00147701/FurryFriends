@@ -1,0 +1,289 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #CDEBEA;
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.navlist {
+	list-style-type: none;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.navlistitem  {
+	position: right;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	color: #87CFCE;
+	font-family: 'Pangolin'; 
+	font-size: 30px;
+	float: none;
+}
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+	color: #87CFCE;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+}
+button{
+	width: 200px;
+	color: #000000;
+	font-size: 16px;
+	padding: 12px 0;
+	background-color: white;
+	border: none;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	transition: transform 0.5s;
+}
+button:hover{
+	transform: translateY(-10px);
+}
+.footer-distributed{
+	background: #FFFFFF;
+	box-sizing: border-box;
+	widows: 100%;
+	text-align: left;
+	font: bold 16px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding: 50px 50px 60px 50px;
+}
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+.footer-distributed h4{
+	color: #87CFCE;
+	font: normal 36px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0;
+}
+.footer-distributed h4 span{
+	color: #FACFCF;
+}
+.footer-distributed .footer-links{
+	color: black;
+	margin: 20px 0 12px;
+}
+.footer-distributed .footer-links a{
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+.footer-distributed .footer-company-name{
+	color: #B3B3B3;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distributed .footer-center{
+	width: 35%;
+}
+.footer-distributed .footer-center i{
+	background-color: #FAF1D6;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: black;
+	vertical-align: middle;
+	margin: 0;
+}
+.footer-distributed .footer-center p span{
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+.footer-distributed .footer-center p a{
+	color: #87CFCE;
+	text-decoration: none;
+}
+.footer-distributed .footer-right{
+	width: 30%;
+}
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color: black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distributed .footer-company-about span{
+	display: block;
+	color: #FACFCF;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	font-size: 20px;
+	color: mediumblue;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.footer-distributed .footer-icons a:hover{
+	color: aqua
+}
+.footer-links a:hover{
+	color: hotpink;
+}
+@media(max-width: 900px){
+	.footer-distributed .footer-links, .footer-distributed .footer-center, .footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+}
+@media(max-width: 600px){
+	footer{
+		position: static;	
+	}
+	header {
+	text-align: center;
+ 	width: 95%;
+}
+	section, .section-2{
+ 	width: 65%;
+	float: none;
+	text-align: center;
+	}
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', 'Pangolin',Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"; ;
+    font-size: 70px;
+    font-weight: 800;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.heading2 {
+    color: black;
+}
+main {
+    margin: 100px 10px;
+}
+
+section {
+    width: 75%;
+    background-color: #87CFCE;
+    padding: 50px ;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.section2 {
+    width: 75%;
+    background-color: #FACFCF;
+    padding: 50px ;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.section3 {
+    width: 75%;
+    background-color: #FAF1D6;
+    padding: 50px ;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+main h2 {
+    font-family: 'Pangolin'; ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+main p {
+    font-family: 'Pangolin', 'Inter', sans-serif;
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+#picasso {
+    float: left;
+    width: 100px;
+    margin: 0 20px 10px 0;
+}
+
+#picasso2 {
+    float: right;
+    width: 20%;
+    margin: 0 0 10px 20px;
+}
+
+/* -------------  SIDEBAR  ------------- */
+
+aside {
+    position: fixed;
+    top: 207px;
+    right: 10px;
+    width: 23%;
+    padding: 15px;
+    background-color: #FAF1D6;
+}
+.sidebar2 {
+    position: fixed;
+    top: 207px;
+    right: 10px;
+    width: 23%;
+    padding: 15px;
+    background-color: #87CFCE;
+}
+.sidebar3 {
+    position: fixed;
+    top: 207px;
+    right: 10px;
+    width: 23%;
+    padding: 15px;
+    background-color: #FACFCF;
+}
+
+/* -------------  CSS GRID  ------------- */
+
+.mygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    margin: 30px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
